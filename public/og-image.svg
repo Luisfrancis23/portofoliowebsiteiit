@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050a18"/>
+      <stop offset="1" stop-color="#122450"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(148,163,184,0.09)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1050" cy="120" r="260" fill="rgba(59,130,246,0.14)"/>
+  <circle cx="120" cy="560" r="220" fill="rgba(34,211,238,0.10)"/>
+
+  <!-- Logo mark -->
+  <rect x="80" y="70" width="72" height="72" rx="18" fill="url(#accent)"/>
+  <path d="M112 96l-16 16 16 16M128 96l16 16-16 16" fill="none" stroke="#050a18" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Texto -->
+  <text x="80" y="240" font-family="Inter, Segoe UI, sans-serif" font-size="72" font-weight="800" fill="#edf2fb">Hakerek Naran Kompletu</text>
+  <text x="80" y="300" font-family="Inter, Segoe UI, sans-serif" font-size="34" font-weight="600" fill="url(#accent)">IT Professional | Web Developer | Informatics Engineer</text>
+  <text x="80" y="370" font-family="Inter, Segoe UI, sans-serif" font-size="26" fill="#9aa8c2">Website · Aplikasaun Web · Sistema Informasaun · Solusaun Teknolojia</text>
+
+  <!-- Barra dekorativa -->
+  <rect x="80" y="420" width="220" height="6" rx="3" fill="url(#accent)"/>
+
+  <!-- Kartu dekorativa -->
+  <g opacity="0.9">
+    <rect x="760" y="330" width="360" height="220" rx="20" fill="rgba(255,255,255,0.05)" stroke="rgba(148,163,184,0.18)"/>
+    <rect x="790" y="360" width="180" height="14" rx="7" fill="#3b82f6"/>
+    <rect x="790" y="390" width="280" height="10" rx="5" fill="rgba(148,163,184,0.45)"/>
+    <rect x="790" y="414" width="240" height="10" rx="5" fill="rgba(148,163,184,0.30)"/>
+    <rect x="790" y="452" width="120" height="30" rx="15" fill="url(#accent)"/>
+    <rect x="930" y="452" width="120" height="30" rx="15" fill="none" stroke="rgba(148,163,184,0.5)"/>
+  </g>
+</svg>
